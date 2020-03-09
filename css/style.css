@@ -431,3 +431,53 @@ footer p{
   font-weight: bold;
 
 }
+
+/* media */
+
+@media all and (max-width:468px) {
+
+  .blocco2 ul li{
+    display: inline-block;
+    width: 32%;
+  }
+
+  .blocco3 p{
+    padding: 0;
+  }
+
+  .blocco5 p{
+    padding: 0;
+  }
+
+.blocco4 ul{
+  text-align: center;
+}
+
+footer{
+  text-align: center;
+}
+
+}
+@media all and (max-width:768px) {
+   nav {
+    text-align: center;
+  }
+
+  footer{
+    text-align: center;
+  }
+
+
+}
+
+
+
+}
+
+@media all and (max-width:992px) {
+   nav {
+
+  }
+
+
+}
